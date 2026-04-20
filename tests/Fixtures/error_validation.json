@@ -1,0 +1,7 @@
+{
+    "message": "The given data was invalid.",
+    "errors": {
+        "phone_number": ["The phone number field is required."],
+        "products": ["At least one product is required."]
+    }
+}

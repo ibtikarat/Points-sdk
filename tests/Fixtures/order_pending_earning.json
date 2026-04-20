@@ -1,0 +1,14 @@
+{
+    "status": true,
+    "message": "",
+    "appended_data": {},
+    "data": {
+        "pending_client_activation": true,
+        "pending_earning_order": {
+            "id": 42,
+            "merchant_order_number": "SHOP-9002",
+            "total_price": 200.0,
+            "total_points": 4000
+        }
+    }
+}

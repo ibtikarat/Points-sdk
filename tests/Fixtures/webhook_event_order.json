@@ -1,0 +1,17 @@
+{
+    "event": "approved",
+    "order": {
+        "id": "550e8400-e29b-41d4-a716-446655440000",
+        "reference_number": "REF-0001",
+        "order_number": "SHOP-9001",
+        "type": "replacing",
+        "total_price": 150.5,
+        "total_points": 0,
+        "payment_status": "fully_paid",
+        "order_status": "approved",
+        "metadata": {"source": "web"},
+        "created_at": "2026-04-20T10:00:00.000000Z",
+        "updated_at": "2026-04-20T10:05:00.000000Z"
+    },
+    "timestamp": "2026-04-20T10:05:00.000000Z"
+}

@@ -1,0 +1,16 @@
+{
+    "event": "low_balance_warning",
+    "merchant": {
+        "id": 7,
+        "name": "Demo Store",
+        "created_at": "2026-01-01T00:00:00.000000Z",
+        "updated_at": "2026-04-20T10:00:00.000000Z"
+    },
+    "data": {
+        "current_balance": "1500.00",
+        "order_points": "2000.00",
+        "balance_after_order": "-500.00",
+        "max_debt_allowed": "0.00"
+    },
+    "timestamp": "2026-04-20T10:05:00.000000Z"
+}
