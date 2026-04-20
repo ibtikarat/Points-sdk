@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Papp\Points\Tests;
+namespace PointsApp\Points\Tests;
 
 use GuzzleHttp\Client as GuzzleClient;
 use GuzzleHttp\Handler\MockHandler;
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Middleware;
 use GuzzleHttp\Psr7\Response;
-use Papp\Points\Client;
-use Papp\Points\Config;
+use PointsApp\Points\Client;
+use PointsApp\Points\Config;
 use PHPUnit\Framework\TestCase as BaseTestCase;
 use Psr\Http\Message\RequestInterface;
 

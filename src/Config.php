@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Papp\Points;
+namespace PointsApp\Points;
 
 use InvalidArgumentException;
 use Psr\Log\LoggerInterface;

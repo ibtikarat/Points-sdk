@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Papp\Points\Tests\Unit\Resources;
+namespace PointsApp\Points\Tests\Unit\Resources;
 
-use Papp\Points\DTOs\Paginated;
-use Papp\Points\DTOs\Webhook;
-use Papp\Points\Tests\TestCase;
+use PointsApp\Points\DTOs\Paginated;
+use PointsApp\Points\DTOs\Webhook;
+use PointsApp\Points\Tests\TestCase;
 
 final class WebhooksTest extends TestCase
 {

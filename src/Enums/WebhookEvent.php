@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Papp\Points\Enums;
+namespace PointsApp\Points\Enums;
 
 /**
  * Event names carried in the X-Webhook-Event header and in the "event" field

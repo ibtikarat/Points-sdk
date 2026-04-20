@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Papp\Points\Exceptions;
+namespace PointsApp\Points\Exceptions;
 
 /**
  * Thrown when the API key is missing, malformed or inactive.

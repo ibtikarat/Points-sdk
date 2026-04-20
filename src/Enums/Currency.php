@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Papp\Points\Enums;
+namespace PointsApp\Points\Enums;
 
 /**
  * Supported currencies. The backend currently only supports SAR.

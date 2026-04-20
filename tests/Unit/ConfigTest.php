@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Papp\Points\Tests\Unit;
+namespace PointsApp\Points\Tests\Unit;
 
 use InvalidArgumentException;
-use Papp\Points\Config;
+use PointsApp\Points\Config;
 use PHPUnit\Framework\TestCase;
 
 final class ConfigTest extends TestCase

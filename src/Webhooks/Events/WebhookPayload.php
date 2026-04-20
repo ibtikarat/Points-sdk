@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Papp\Points\Webhooks\Events;
+namespace PointsApp\Points\Webhooks\Events;
 
-use Papp\Points\Enums\WebhookEvent;
+use PointsApp\Points\Enums\WebhookEvent;
 
 interface WebhookPayload
 {

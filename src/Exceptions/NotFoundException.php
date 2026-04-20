@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Papp\Points\Exceptions;
+namespace PointsApp\Points\Exceptions;
 
 final class NotFoundException extends PointsException
 {

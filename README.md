@@ -5,7 +5,7 @@ Official PHP SDK for the Points loyalty platform at [papp.sa](https://papp.sa).
 ## Installation
 
 ```bash
-composer require papp/points-sdk
+composer require points-app/points-sdk
 ```
 
 ## Quick Start
@@ -17,8 +17,8 @@ declare(strict_types=1);
 
 require __DIR__ . '/vendor/autoload.php';
 
-use Papp\Points\Client;
-use Papp\Points\Enums\PaymentMethod;
+use PointsApp\Points\Client;
+use PointsApp\Points\Enums\PaymentMethod;
 
 $points = new Client([
     'private_key' => 'points_private_key_xxx',
@@ -56,14 +56,14 @@ $order = $points->orders()->complete($order->uuid, PaymentMethod::Visa);
 
 ## Supported PHP Versions
 
-PHP 8.1 or newer.
+PHP 8.2 or newer.
 
 ## Webhooks
 
 The backend sends the webhook secret in the `X-Webhook-Secret` header. Verification is a direct shared-secret comparison, not an HMAC signature.
 
 ```php
-use Papp\Points\Webhooks\WebhookHandler;
+use PointsApp\Points\Webhooks\WebhookHandler;
 
 $handler = new WebhookHandler('your_webhook_secret');
 $event = $handler->parse($rawPayload, $secretHeader, $eventHeader);

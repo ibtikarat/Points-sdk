@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Papp\Points\Resources;
+namespace PointsApp\Points\Resources;
 
 use InvalidArgumentException;
-use Papp\Points\Config;
-use Papp\Points\DTOs\Order;
-use Papp\Points\DTOs\PendingEarningOrder;
-use Papp\Points\Enums\PaymentMethod;
-use Papp\Points\Enums\ShippingStatus;
-use Papp\Points\Http\HttpClient;
-use Papp\Points\Support\PhoneNormalizer;
+use PointsApp\Points\Config;
+use PointsApp\Points\DTOs\Order;
+use PointsApp\Points\DTOs\PendingEarningOrder;
+use PointsApp\Points\Enums\PaymentMethod;
+use PointsApp\Points\Enums\ShippingStatus;
+use PointsApp\Points\Http\HttpClient;
+use PointsApp\Points\Support\PhoneNormalizer;
 
 /**
  * /api/v1/orders/* endpoints.

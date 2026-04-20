@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace Papp\Points\Tests\Unit\Http;
+namespace PointsApp\Points\Tests\Unit\Http;
 
 use GuzzleHttp\Exception\ConnectException;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
-use Papp\Points\Exceptions\AuthenticationException;
-use Papp\Points\Exceptions\ForbiddenException;
-use Papp\Points\Exceptions\NetworkException;
-use Papp\Points\Exceptions\NotFoundException;
-use Papp\Points\Exceptions\RateLimitException;
-use Papp\Points\Exceptions\ServerException;
-use Papp\Points\Exceptions\ValidationException;
-use Papp\Points\Tests\TestCase;
+use PointsApp\Points\Exceptions\AuthenticationException;
+use PointsApp\Points\Exceptions\ForbiddenException;
+use PointsApp\Points\Exceptions\NetworkException;
+use PointsApp\Points\Exceptions\NotFoundException;
+use PointsApp\Points\Exceptions\RateLimitException;
+use PointsApp\Points\Exceptions\ServerException;
+use PointsApp\Points\Exceptions\ValidationException;
+use PointsApp\Points\Tests\TestCase;
 
 final class HttpClientTest extends TestCase
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Papp\Points\Exceptions;
+namespace PointsApp\Points\Exceptions;
 
 /**
  * Thrown by the webhook handler when the incoming secret does not match.

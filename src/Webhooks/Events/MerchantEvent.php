@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Papp\Points\Webhooks\Events;
+namespace PointsApp\Points\Webhooks\Events;
 
 use DateTimeImmutable;
-use Papp\Points\Enums\WebhookEvent;
+use PointsApp\Points\Enums\WebhookEvent;
 
 final class MerchantEvent implements WebhookPayload
 {

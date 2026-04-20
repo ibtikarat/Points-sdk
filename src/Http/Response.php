@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Papp\Points\Http;
+namespace PointsApp\Points\Http;
 
 /**
  * Parsed, strongly-typed wrapper for the Points API response envelope:

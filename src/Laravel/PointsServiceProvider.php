@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Papp\Points\Laravel;
+namespace PointsApp\Points\Laravel;
 
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Support\ServiceProvider;
-use Papp\Points\Client;
-use Papp\Points\Config;
+use PointsApp\Points\Client;
+use PointsApp\Points\Config;
 
 /**
  * Registers the Points SDK in Laravel containers.

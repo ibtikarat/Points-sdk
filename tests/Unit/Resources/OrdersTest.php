@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Papp\Points\Tests\Unit\Resources;
+namespace PointsApp\Points\Tests\Unit\Resources;
 
 use InvalidArgumentException;
-use Papp\Points\DTOs\Order;
-use Papp\Points\DTOs\PendingEarningOrder;
-use Papp\Points\Enums\PaymentMethod;
-use Papp\Points\Enums\ShippingStatus;
-use Papp\Points\Tests\TestCase;
+use PointsApp\Points\DTOs\Order;
+use PointsApp\Points\DTOs\PendingEarningOrder;
+use PointsApp\Points\Enums\PaymentMethod;
+use PointsApp\Points\Enums\ShippingStatus;
+use PointsApp\Points\Tests\TestCase;
 
 final class OrdersTest extends TestCase
 {

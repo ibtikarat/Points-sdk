@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Papp\Points\Resources;
+namespace PointsApp\Points\Resources;
 
-use Papp\Points\Http\HttpClient;
+use PointsApp\Points\Http\HttpClient;
 
 abstract class Resource
 {

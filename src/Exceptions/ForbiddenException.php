@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Papp\Points\Exceptions;
+namespace PointsApp\Points\Exceptions;
 
 /**
  * Thrown when the merchant is unverified / unpublished or the action is forbidden.

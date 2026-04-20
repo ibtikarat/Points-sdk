@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace Papp\Points;
+namespace PointsApp\Points;
 
 use GuzzleHttp\ClientInterface;
-use Papp\Points\Http\HttpClient;
-use Papp\Points\Resources\Orders;
-use Papp\Points\Resources\Webhooks;
+use PointsApp\Points\Http\HttpClient;
+use PointsApp\Points\Resources\Orders;
+use PointsApp\Points\Resources\Webhooks;
 
 /**
  * Entry point for the Points SDK.
  *
  * Example:
- *   $points = new \Papp\Points\Client([
+ *   $points = new \PointsApp\Points\Client([
  *       'private_key' => 'points_private_key_xxx',
  *       'base_url'    => 'https://api.papp.sa',
  *   ]);

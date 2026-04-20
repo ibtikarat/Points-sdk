@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Papp\Points\DTOs;
+namespace PointsApp\Points\DTOs;
 
 use DateTimeImmutable;
 

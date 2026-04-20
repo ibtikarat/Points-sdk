@@ -7,7 +7,7 @@ declare(strict_types=1);
 | Example Laravel Usage
 |--------------------------------------------------------------------------
 |
-| In a Laravel app after `composer require papp/points-sdk`, add:
+| In a Laravel app after `composer require points-app/points-sdk`, add:
 |
 | config/services.php
 | 'points' => [
@@ -18,7 +18,7 @@ declare(strict_types=1);
 |
 | Then call the SDK from a controller or service:
 |
-| $points = app(\Papp\Points\Client::class);
+| $points = app(\PointsApp\Points\Client::class);
 | $order = $points->orders()->get($uuid);
 |
 */

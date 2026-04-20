@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Papp\Points\Exceptions;
+namespace PointsApp\Points\Exceptions;
 
 /**
  * Thrown on 5xx responses. These are transient by nature — the HTTP client

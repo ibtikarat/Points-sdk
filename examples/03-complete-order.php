@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 require dirname(__DIR__) . '/vendor/autoload.php';
 
-use Papp\Points\Client;
-use Papp\Points\Enums\PaymentMethod;
+use PointsApp\Points\Client;
+use PointsApp\Points\Enums\PaymentMethod;
 
 $config = [
     'private_key' => getenv('POINTS_PRIVATE_KEY') ?: 'points_private_key_xxx',

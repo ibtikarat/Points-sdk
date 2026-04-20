@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Papp\Points\Tests\Integration;
+namespace PointsApp\Points\Tests\Integration;
 
-use Papp\Points\DTOs\Order;
-use Papp\Points\DTOs\Webhook;
-use Papp\Points\Tests\TestCase;
-use Papp\Points\Webhooks\Events\OrderEvent;
-use Papp\Points\Webhooks\WebhookHandler;
+use PointsApp\Points\DTOs\Order;
+use PointsApp\Points\DTOs\Webhook;
+use PointsApp\Points\Tests\TestCase;
+use PointsApp\Points\Webhooks\Events\OrderEvent;
+use PointsApp\Points\Webhooks\WebhookHandler;
 
 final class FixtureCompatibilityTest extends TestCase
 {

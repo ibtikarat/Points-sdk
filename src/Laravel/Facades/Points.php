@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Papp\Points\Laravel\Facades;
+namespace PointsApp\Points\Laravel\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Papp\Points\Client;
-use Papp\Points\Resources\Orders;
-use Papp\Points\Resources\Webhooks;
+use PointsApp\Points\Client;
+use PointsApp\Points\Resources\Orders;
+use PointsApp\Points\Resources\Webhooks;
 
 /**
  * @method static Orders   orders()

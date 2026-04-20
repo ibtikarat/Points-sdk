@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Papp\Points\DTOs;
+namespace PointsApp\Points\DTOs;
 
 use DateTimeImmutable;
-use Papp\Points\Enums\OrderStatus;
-use Papp\Points\Enums\OrderType;
+use PointsApp\Points\Enums\OrderStatus;
+use PointsApp\Points\Enums\OrderType;
 
 final class Order
 {

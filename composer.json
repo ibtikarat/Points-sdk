@@ -1,8 +1,8 @@
 {
-    "name": "papp/points-sdk",
+    "name": "points-app/points-sdk",
     "description": "Official PHP SDK for the Points loyalty platform (papp.sa)",
     "type": "library",
-    "keywords": ["points", "papp", "loyalty", "sdk", "saudi-arabia", "api"],
+    "keywords": ["points", "points-app", "loyalty", "sdk", "saudi-arabia", "api"],
     "homepage": "https://papp.sa",
     "license": "MIT",
     "authors": [
@@ -27,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Papp\\Points\\": "src/"
+            "PointsApp\\Points\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Papp\\Points\\Tests\\": "tests/"
+            "PointsApp\\Points\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -44,10 +44,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Papp\\Points\\Laravel\\PointsServiceProvider"
+                "PointsApp\\Points\\Laravel\\PointsServiceProvider"
             ],
             "aliases": {
-                "Points": "Papp\\Points\\Laravel\\Facades\\Points"
+                "Points": "PointsApp\\Points\\Laravel\\Facades\\Points"
             }
         }
     },

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Papp\Points\Enums;
+namespace PointsApp\Points\Enums;
 
 /**
  * Order type as returned by the API (integer).

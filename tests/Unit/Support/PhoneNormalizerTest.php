@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Papp\Points\Tests\Unit\Support;
+namespace PointsApp\Points\Tests\Unit\Support;
 
 use InvalidArgumentException;
-use Papp\Points\Support\PhoneNormalizer;
+use PointsApp\Points\Support\PhoneNormalizer;
 use PHPUnit\Framework\TestCase;
 
 final class PhoneNormalizerTest extends TestCase

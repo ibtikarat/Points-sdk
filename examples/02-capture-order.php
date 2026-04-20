@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 require dirname(__DIR__) . '/vendor/autoload.php';
 
-use Papp\Points\Client;
+use PointsApp\Points\Client;
 
 $config = [
     'private_key' => getenv('POINTS_PRIVATE_KEY') ?: 'points_private_key_xxx',

@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Papp\Points\Tests\Unit\Webhooks;
+namespace PointsApp\Points\Tests\Unit\Webhooks;
 
-use Papp\Points\Enums\WebhookEvent;
-use Papp\Points\Exceptions\InvalidSignatureException;
-use Papp\Points\Exceptions\PointsException;
-use Papp\Points\Tests\TestCase;
-use Papp\Points\Webhooks\Events\MerchantEvent;
-use Papp\Points\Webhooks\Events\OrderEvent;
-use Papp\Points\Webhooks\WebhookHandler;
+use PointsApp\Points\Enums\WebhookEvent;
+use PointsApp\Points\Exceptions\InvalidSignatureException;
+use PointsApp\Points\Exceptions\PointsException;
+use PointsApp\Points\Tests\TestCase;
+use PointsApp\Points\Webhooks\Events\MerchantEvent;
+use PointsApp\Points\Webhooks\Events\OrderEvent;
+use PointsApp\Points\Webhooks\WebhookHandler;
 
 final class WebhookHandlerTest extends TestCase
 {

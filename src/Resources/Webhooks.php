@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Papp\Points\Resources;
+namespace PointsApp\Points\Resources;
 
-use Papp\Points\DTOs\Paginated;
-use Papp\Points\DTOs\Webhook;
+use PointsApp\Points\DTOs\Paginated;
+use PointsApp\Points\DTOs\Webhook;
 
 /**
  * /api/v1/webhooks/* endpoints (merchant-registered webhook URLs).
  *
- * Not to be confused with `Papp\Points\Webhooks\WebhookHandler` which verifies
+ * Not to be confused with `PointsApp\Points\Webhooks\WebhookHandler` which verifies
  * incoming webhook requests on the merchant side.
  */
 final class Webhooks extends Resource

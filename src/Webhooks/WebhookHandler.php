@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Papp\Points\Webhooks;
+namespace PointsApp\Points\Webhooks;
 
 use DateTimeImmutable;
-use Papp\Points\Enums\WebhookEvent;
-use Papp\Points\Exceptions\InvalidSignatureException;
-use Papp\Points\Exceptions\PointsException;
-use Papp\Points\Webhooks\Events\MerchantEvent;
-use Papp\Points\Webhooks\Events\OrderEvent;
-use Papp\Points\Webhooks\Events\WebhookPayload;
+use PointsApp\Points\Enums\WebhookEvent;
+use PointsApp\Points\Exceptions\InvalidSignatureException;
+use PointsApp\Points\Exceptions\PointsException;
+use PointsApp\Points\Webhooks\Events\MerchantEvent;
+use PointsApp\Points\Webhooks\Events\OrderEvent;
+use PointsApp\Points\Webhooks\Events\WebhookPayload;
 
 /**
  * Verifies and parses incoming webhook requests from the Points platform.

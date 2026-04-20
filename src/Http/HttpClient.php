@@ -2,22 +2,22 @@
 
 declare(strict_types=1);
 
-namespace Papp\Points\Http;
+namespace PointsApp\Points\Http;
 
 use GuzzleHttp\Client as GuzzleClient;
 use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Exception\ConnectException;
 use GuzzleHttp\Exception\GuzzleException;
 use GuzzleHttp\Exception\RequestException;
-use Papp\Points\Config;
-use Papp\Points\Exceptions\AuthenticationException;
-use Papp\Points\Exceptions\ForbiddenException;
-use Papp\Points\Exceptions\NetworkException;
-use Papp\Points\Exceptions\NotFoundException;
-use Papp\Points\Exceptions\PointsException;
-use Papp\Points\Exceptions\RateLimitException;
-use Papp\Points\Exceptions\ServerException;
-use Papp\Points\Exceptions\ValidationException;
+use PointsApp\Points\Config;
+use PointsApp\Points\Exceptions\AuthenticationException;
+use PointsApp\Points\Exceptions\ForbiddenException;
+use PointsApp\Points\Exceptions\NetworkException;
+use PointsApp\Points\Exceptions\NotFoundException;
+use PointsApp\Points\Exceptions\PointsException;
+use PointsApp\Points\Exceptions\RateLimitException;
+use PointsApp\Points\Exceptions\ServerException;
+use PointsApp\Points\Exceptions\ValidationException;
 use Psr\Http\Message\ResponseInterface;
 
 /**

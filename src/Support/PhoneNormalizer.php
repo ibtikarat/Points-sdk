@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Papp\Points\Support;
+namespace PointsApp\Points\Support;
 
 use InvalidArgumentException;
 
