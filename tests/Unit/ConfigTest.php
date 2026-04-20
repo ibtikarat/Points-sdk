@@ -5,8 +5,8 @@ declare(strict_types=1);
 namespace PointsApp\Points\Tests\Unit;
 
 use InvalidArgumentException;
-use PointsApp\Points\Config;
 use PHPUnit\Framework\TestCase;
+use PointsApp\Points\Config;
 
 final class ConfigTest extends TestCase
 {

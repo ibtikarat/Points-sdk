@@ -5,8 +5,8 @@ declare(strict_types=1);
 namespace PointsApp\Points\Tests\Unit\Support;
 
 use InvalidArgumentException;
-use PointsApp\Points\Support\PhoneNormalizer;
 use PHPUnit\Framework\TestCase;
+use PointsApp\Points\Support\PhoneNormalizer;
 
 final class PhoneNormalizerTest extends TestCase
 {

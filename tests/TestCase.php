@@ -9,9 +9,9 @@ use GuzzleHttp\Handler\MockHandler;
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Middleware;
 use GuzzleHttp\Psr7\Response;
+use PHPUnit\Framework\TestCase as BaseTestCase;
 use PointsApp\Points\Client;
 use PointsApp\Points\Config;
-use PHPUnit\Framework\TestCase as BaseTestCase;
 use Psr\Http\Message\RequestInterface;
 
 abstract class TestCase extends BaseTestCase
