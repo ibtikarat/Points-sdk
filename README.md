@@ -8,6 +8,32 @@ Official PHP SDK for the Points loyalty platform at [papp.sa](https://papp.sa).
 composer require points-app/points-sdk
 ```
 
+## Environment Variables
+
+Add the following to your `.env` file:
+
+```env
+# Required – your merchant private API key
+POINTS_PRIVATE_KEY=points_private_key_xxx
+
+# Optional – only needed for checkout (createCheckout) endpoints
+POINTS_PUBLIC_KEY=points_public_key_xxx
+
+# API base URL – use production or sandbox (see Environments below)
+POINTS_BASE_URL=https://business.papp.sa
+
+# Optional tuning
+POINTS_TIMEOUT=30
+POINTS_RETRIES=3
+```
+
+## Environments
+
+| Environment | Base URL |
+|-------------|----------|
+| Production  | `https://business.papp.sa` |
+| Sandbox / Testing | `https://sandbox.papp.sa` |
+
 ## Quick Start
 
 ```php
@@ -21,11 +47,11 @@ use PointsApp\Points\Client;
 use PointsApp\Points\Enums\PaymentMethod;
 
 $points = new Client([
-    'private_key' => 'points_private_key_xxx',
-    'public_key' => 'points_public_key_xxx',
-    'base_url' => 'https://api.papp.sa',
-    'timeout' => 30,
-    'retries' => 3,
+    'private_key' => env('POINTS_PRIVATE_KEY'),
+    'public_key'  => env('POINTS_PUBLIC_KEY'),
+    'base_url'    => env('POINTS_BASE_URL', 'https://business.papp.sa'),
+    'timeout'     => 30,
+    'retries'     => 3,
 ]);
 
 $checkoutUrl = $points->orders()->createCheckout([
@@ -50,7 +76,7 @@ $order = $points->orders()->complete($order->uuid, PaymentMethod::Visa);
 ## Configuration
 
 - `private_key` is required and is sent as the `x-api-key` header.
-- `base_url` is required so you can target production or sandbox explicitly.
+- `base_url` is required — use `https://business.papp.sa` for production or `https://sandbox.papp.sa` for testing.
 - `public_key` is optional and only used for checkout endpoints.
 - `timeout`, `connect_timeout`, and `retries` are configurable.
 
@@ -75,7 +101,7 @@ Full documentation will be published at [docs.papp.sa](https://docs.papp.sa).
 
 ## Contributing
 
-1. Create a feature branch from `ai`.
+1. Create a feature branch from `main`.
 2. Run `./vendor/bin/phpunit`.
 3. Run `./vendor/bin/phpstan analyse`.
 4. Run `./vendor/bin/php-cs-fixer fix --dry-run --diff`.
@@ -83,4 +109,3 @@ Full documentation will be published at [docs.papp.sa](https://docs.papp.sa).
 ## License
 
 MIT
-

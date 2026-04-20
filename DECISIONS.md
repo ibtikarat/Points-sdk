@@ -26,7 +26,7 @@ This file records the backend-derived decisions used while building the SDK.
 
 ## Assumptions
 
-- Production users will pass `https://api.papp.sa` as `base_url`.
+- Production users will pass `https://business.papp.sa` as `base_url`.
 - The SDK keeps raw response payloads on DTOs where forward compatibility is helpful.
 - Laravel support is optional and isolated under `src/Laravel`.
 

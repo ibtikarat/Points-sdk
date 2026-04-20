@@ -15,7 +15,7 @@ use PointsApp\Points\Resources\Webhooks;
  * Example:
  *   $points = new \PointsApp\Points\Client([
  *       'private_key' => 'points_private_key_xxx',
- *       'base_url'    => 'https://api.papp.sa',
+ *       'base_url'    => 'https://business.papp.sa',
  *   ]);
  *   $order = $points->orders()->createEarning([...]);
  */

@@ -8,7 +8,7 @@ use PointsApp\Points\Client;
 
 $config = [
     'private_key' => getenv('POINTS_PRIVATE_KEY') ?: 'points_private_key_xxx',
-    'base_url' => getenv('POINTS_BASE_URL') ?: 'https://api.papp.sa',
+    'base_url' => getenv('POINTS_BASE_URL') ?: 'https://business.papp.sa',
 ];
 
 $orderUuid = getenv('POINTS_ORDER_UUID') ?: '550e8400-e29b-41d4-a716-446655440000';

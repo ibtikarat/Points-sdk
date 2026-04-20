@@ -13,7 +13,7 @@ declare(strict_types=1);
 | 'points' => [
 |     'private_key' => env('POINTS_PRIVATE_KEY'),
 |     'public_key' => env('POINTS_PUBLIC_KEY'),
-|     'base_url' => env('POINTS_BASE_URL', 'https://api.papp.sa'),
+|     'base_url' => env('POINTS_BASE_URL', 'https://business.papp.sa'),
 | ],
 |
 | Then call the SDK from a controller or service:

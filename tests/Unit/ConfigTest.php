@@ -13,7 +13,7 @@ final class ConfigTest extends TestCase
     public function test_requires_private_key(): void
     {
         $this->expectException(InvalidArgumentException::class);
-        new Config(['base_url' => 'https://api.papp.sa']);
+        new Config(['base_url' => 'https://business.papp.sa']);
     }
 
     public function test_requires_base_url(): void
@@ -26,17 +26,17 @@ final class ConfigTest extends TestCase
     {
         $config = new Config([
             'private_key' => 'k',
-            'base_url' => 'https://api.papp.sa/',
+            'base_url' => 'https://business.papp.sa/',
         ]);
 
-        self::assertSame('https://api.papp.sa', $config->baseUrl);
+        self::assertSame('https://business.papp.sa', $config->baseUrl);
     }
 
     public function test_defaults(): void
     {
         $config = new Config([
             'private_key' => 'k',
-            'base_url' => 'https://api.papp.sa',
+            'base_url' => 'https://business.papp.sa',
         ]);
 
         self::assertSame(30, $config->timeout);
@@ -49,7 +49,7 @@ final class ConfigTest extends TestCase
         $config = new Config([
             'private_key' => 'k',
             'public_key' => '',
-            'base_url' => 'https://api.papp.sa',
+            'base_url' => 'https://business.papp.sa',
         ]);
 
         self::assertNull($config->publicKey);
@@ -60,7 +60,7 @@ final class ConfigTest extends TestCase
         $this->expectException(InvalidArgumentException::class);
         new Config([
             'private_key' => 'k',
-            'base_url' => 'https://api.papp.sa',
+            'base_url' => 'https://business.papp.sa',
             'retries' => -1,
         ]);
     }

@@ -39,7 +39,7 @@ final class Config
         }
 
         if (empty($options['base_url']) || !is_string($options['base_url'])) {
-            throw new InvalidArgumentException('Config: "base_url" is required and must be a non-empty string (e.g. https://api.papp.sa).');
+            throw new InvalidArgumentException('Config: "base_url" is required and must be a non-empty string (e.g. https://business.papp.sa).');
         }
 
         $publicKey = $options['public_key'] ?? null;
