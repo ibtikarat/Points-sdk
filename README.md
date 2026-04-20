@@ -82,7 +82,7 @@ $order = $points->orders()->complete($order->uuid, PaymentMethod::Visa);
 
 ## Supported PHP Versions
 
-PHP 8.2 or newer.
+PHP 8.2, 8.3, 8.4, and 8.5.
 
 ## Webhooks
 
